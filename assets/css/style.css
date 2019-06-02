@@ -1,0 +1,49 @@
+
+
+body {
+    background-image:url(../images/relax.jpg);
+    background-color: whitesmoke;
+    color           : whitesmoke;
+    font-family: monospace;
+    font-size       : 20px;
+}
+
+.container {
+    width  : 840px;
+    margin : auto;
+    padding: 2.5% 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear  : both;
+}
+
+h1 {
+    color        :whitesmoke;
+    font-family: fantasy;
+    font-size    : 4.2em;
+    text-align   : center;
+    text-shadow  : 0 3px 6px ,
+                   0 6px 8px ;
+
+    margin-bottom: 0.65em;
+}
+
+.buttons {
+    color         : whitesmoke;
+    font-size     : 1.8em;
+    font-weight   : bold;
+    letter-spacing: 0.04em;
+    margin-bottom : 1em;
+}
+
+p {
+    letter-spacing: 0.03em;
+    line-height   : 1.5em;
+    margin-bottom : 3%;
+}
+
+
+
